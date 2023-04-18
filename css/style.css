@@ -1,3 +1,4 @@
+/* GENERAL + FONTS/STYLES */
 * {
     margin: 0;
     padding: 0;
@@ -5,3 +6,50 @@
     font-family: 'Roboto', sans-serif;
 }
 
+a {
+    text-decoration: none;
+    color: white;
+}
+
+/* HEADER */
+header {
+    height: 50px;
+    background-color: lightseagreen;
+    position: fixed;
+    width: 100%;
+    z-index: 500;
+}
+
+.ms-container {
+    padding-top: 50px;
+
+}
+
+
+
+/* SIDEBAR NAV */
+nav {
+    width:100px;
+    height: calc(100vh - 50px);
+    background-color: gray;
+    color: white;
+}
+
+ul {
+    list-style: none;
+    padding: 0;
+}
+
+#admin {
+  margin-top: auto;
+}
+
+/* DEBUG */
+.container-fluid {
+    border: orangered 2px solid;
+    height: 100%;
+}
+
+[class*="col"], .card {
+    border: blue 1px solid;
+}
