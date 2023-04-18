@@ -22,14 +22,21 @@ header {
 
 .ms-container {
     padding-top: 50px;
+    height: 100vh;
+    width: 100%;
+    display: flex;
+    border: black 2px solid;
+
 
 }
 
 
 
+
+
 /* SIDEBAR NAV */
 nav {
-    width:100px;
+    width:150px;
     height: calc(100vh - 50px);
     background-color: gray;
     color: white;
@@ -38,11 +45,26 @@ nav {
 ul {
     list-style: none;
     padding: 0;
+    height: 100%;
 }
 
-#admin {
+li:last-child {
   margin-top: auto;
 }
+
+/* MAIN */
+
+main {
+    width: calc(100% - 100px);
+    
+}
+
+.ms-container-main {
+     height: 100%;
+    width: 100%; 
+    overflow-y: auto;
+}
+
 
 /* DEBUG */
 .container-fluid {
