@@ -186,6 +186,12 @@ li:hover {
     background-color: rgba(255, 255, 255, 0.5);
 }
 
+.hover-classe:hover {
+    background-color: rgba(0, 0, 0, 0.1);
+    cursor: pointer;
+}
+
+
 /* MEDIA QUERYS */
 @media screen and (min-width:768px){
     #logo-mobile img{
