@@ -120,6 +120,13 @@ main {
     overflow-y: auto;
 }
 
+/* STUDENTS */
+
+.ms-container-margin {
+    margin-left: 5px;
+    margin-right: 5px;
+}
+
 .studenti-boolean {
     background-color: #1b72e8;
     color: white;
@@ -133,6 +140,26 @@ main {
 .badge {
     background-color: #165bba !important;
 }
+
+/* PROSSIME CLASSI */
+.data-inizio, .roi {
+    display: none;
+}
+
+.classe i {
+    background-color: #f26551;
+    color: white;
+    padding: 2px;
+    border-radius: 15px;
+}
+
+.azioni i {
+    color: #6c757d;
+    padding: 2px;
+    border-radius: 3px;
+    border: 1px solid #6c757d;
+}
+
 
 /* HOVER */
 li:hover {
