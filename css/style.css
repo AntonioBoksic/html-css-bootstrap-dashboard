@@ -6,19 +6,60 @@
     font-family: 'Roboto', sans-serif;
 }
 
+h1 {
+    font-size: 24px;
+    margin-bottom: 0;
+}
+
 a {
     text-decoration: none;
     color: white;
 }
 
+.counter  {
+    font-size: 21px;
+}
+
+.boolean-piani.titolo {
+    font-size: 21px;
+}
+
 /* HEADER */
 header {
     height: 50px;
-    background-color: lightseagreen;
+    background-color: white;
     position: fixed;
     width: 100%;
     z-index: 500;
 }
+
+#logo-mobile img {
+    max-width: 40px;
+    max-height: 40px;
+    object-fit: contain;
+}
+
+#logo-tablet img {
+    max-width: 100%;
+    max-height: 100%;
+    object-fit: contain;
+    display: none;
+}
+
+
+.form-control {
+    background-color: #e5e5e5;
+    border: none;
+}
+
+.fa-solid.fa-bell
+ {
+    color: orange;
+}
+
+
+
+
 
 .ms-container {
     padding-top: 50px;
@@ -36,9 +77,9 @@ header {
 
 /* SIDEBAR NAV */
 nav {
-    width:150px;
+    width:50px;
     height: calc(100vh - 50px);
-    background-color: gray;
+    background-color: #051e34;
     color: white;
 }
 
@@ -46,16 +87,30 @@ ul {
     list-style: none;
     padding: 0;
     height: 100%;
+    
+    /* qua con text align non me li centra bene */
 }
 
-li:last-child {
-  margin-top: auto;
+li{
+    margin-left: 12px;
+    margin-right: 12px;
+}
+
+
+
+
+#admin {
+  margin-top: autos;
+}
+
+li span {
+    display: none;
 }
 
 /* MAIN */
 
 main {
-    width: calc(100% - 100px);
+    width: calc(100% - 50px);
     
 }
 
@@ -64,6 +119,56 @@ main {
     width: 100%; 
     overflow-y: auto;
 }
+
+.studenti-boolean {
+    background-color: #1b72e8;
+    color: white;
+}
+
+.studenti-boolean>div {
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+
+.badge {
+    background-color: #165bba !important;
+}
+
+/* HOVER */
+li:hover {
+    background-color: rgba(255, 255, 255, 0.5);
+}
+
+/* MEDIA QUERYS */
+@media screen and (min-width:768px){
+    #logo-mobile img{
+        display: none;
+    }
+
+    #logo-tablet img {
+        display: block;
+    }
+}
+
+@media screen and (min-width:992px){
+
+    nav {
+        width: 100px;
+    }
+
+    main {
+        width: calc(100% - 100px);
+        
+    }
+
+    li span {
+        display: inline-block;
+    }
+}
+    
+
+
+
 
 
 /* DEBUG */
