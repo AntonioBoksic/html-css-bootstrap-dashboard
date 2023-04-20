@@ -66,6 +66,11 @@ header {
     color: orange;
 }
 
+/* OFFCANVAS */
+.offcanvas{
+    width:100vw !important;
+}   
+
 /* SIDEBAR NAV */
 nav {
     width:50px;
@@ -75,7 +80,7 @@ nav {
     background-image: url(../img/sidebar-bg.png);
 }
 
-ul {
+nav ul {
     list-style: none;
     padding: 0;
     height: 100%;
@@ -83,7 +88,7 @@ ul {
     /* qua con text align non me li centra bene */
 }
 
-li{
+nav li{
     margin-left: 12px;
     margin-right: 12px;
     padding: 10px 0px;
@@ -213,7 +218,7 @@ border-radius: 10px;
 
 
 /* HOVER */
-li:hover {
+nav li:hover {
     background-color: rgba(255, 255, 255, 0.5);
 }
 
@@ -264,6 +269,10 @@ li:hover {
     li span {
         display: inline-block;
     }
+
+    .offcanvas{
+        width:50% !important;
+    }  
 }
     
 
