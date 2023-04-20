@@ -93,42 +93,47 @@
         <main>
             
             <div class="ms-container-main">
-                <div class="row">
+                
 
-                    <!-- SEZIONE STUDENTI BOOLEAN -->
-                    <div class="ms-container-margin">
-                        <section class="row studenti-boolean">
+                <!-- SEZIONE STUDENTI BOOLEAN -->
+                <div class="ms-container-margin">
+                    <section class="row studenti-boolean">
+                    
+                        <!-- Nuovo studente -->
+                        <div class="col-12 col-md-4 col-lg-3" id="nuovo-studente">
 
-                            <!-- Nuovo studente -->
-                            <div class="col-12 col-md-4" id="nuovo-studente">
-
-                                Nuovo studente
-                                <button type="button" class="btn btn-outline-light">+</button>
+                            Nuovo studente
+                            <button type="button" class="btn btn-outline-light">+</button>
 
 
+                        </div>
+
+                        <!-- Boolean e badge -->
+                        <div class="col-12 col-md-4 col-lg-6"  id="boolean-piani">
+                            <div>
+                                <span class="boolean-piani titolo">Boolean</span>
+                                <span class="badge rounded-pill text-bg-primary">Piano Blaze</span>
                             </div>
 
-                            <!-- Boolean e badge -->
-                            <div class="col-12 col-md-4"  id="boolean-piani">
-                                <div>
-                                    <span class="boolean-piani titolo">Boolean</span>
-                                    <span class="badge rounded-pill text-bg-primary">Piano Blaze</span>
-                                </div>
-
-                                <div>
-                                    <span class="badge rounded-pill text-bg-primary">3 app</span>
-                                    <i class="fa-solid fa-angles-right"></i>
-                                    <span class="badge rounded-pill text-bg-primary">+</span>
-
-
-
-                                </div>
-
-                            </div>
+                            <div>
+                                <span class="badge rounded-pill text-bg-primary">3 app</span>
+                                <i class="fa-solid fa-angles-right"></i>
+                                <!-- badge con il + che sparisce in lg -->
+                                <span class="badge rounded-pill text-bg-primary badge-plus">+</span>
+                                <!-- badge che appaiono in lg -->
+                                <span class="badge rounded-pill text-bg-primary badge-display-lg">Boolean mobile app</span>
+                                <span class="badge rounded-pill text-bg-primary badge-display-lg">Boolean web app</span>
+                                <span class="badge rounded-pill text-bg-primary badge-display-lg">Boolean blog app</span>
 
                             
-                            <!-- studenti online -->
-                            <div class="col-12 col-md-4"  class="studenti-online">
+                            
+                            </div>
+
+                        </div>
+
+                            
+                        <!-- studenti online -->
+                        <div class="col-12 col-md-4 col-lg-3"  class="studenti-online">
                                 <div class="studenti-online titolo">
                                     <span> Studenti online negli ultimi 30 minuti</span>
                                 </div>
@@ -136,222 +141,238 @@
                                 <div class="studenti-online counter">
                                     125
                                 </div>
-                            </div>
+                        </div>
 
-                        </section>
-                    </div>
+                    </section>
+                </div>
 
-                    <!-- SEZIONE PROSSIME CLASSI -->
+                <!-- SEZIONE PROSSIME CLASSI -->
+                <div class="row prossime-classi">
+
                     <div class="ms-container-margin">
 
-                        <div class="row prossime-classi">
-
+                        <!-- row titolo colonna -->
+                        <div class="row">
                             <div class="col">
                                 <h1>Prossime classi</h1>
                             </div>
-
-                            <!-- row titolo -->
-                            <div class="row">
-                                <div class="col">
-                                    <div class="row">
-                                        <div class="col nome-classe">Nome</div>
-                                        <div class="col-1 col-md-2  data-inizio">Data Inizio</div>
-                                        <div class="col-1 col-md-2 roi">ROI</div>
-                                        <div class="col-3 col-md-2 stato">Stato</div>
-                                        <div class="col-3 col-md-2 azioni">Azioni</div>
-                                    </div>
-                                </div>
-                            </div>
-
-                            <!-- da qui row delle singole classi -->
-                            <!-- classe 75 -->
-                            <div class="row">
-                                <div class="col nome-classe">
-                                    <div class="row hover-classe">
-                                        <div class="col classe">
-                                            <i class="fa-solid fa-code"></i>
-                                            <span>Classe 75</span>
-                                        </div>
-                                        <div class="col col-md-2 data-inizio">15 Feb 2021</div>
-                                        <div class="col-1 col-md-2 roi">20%</div>
-                                        <div class="col-3 col-md-2 stato">
-                                            <span class="badge rounded-pill text-bg-primary done">Done</span>
-                                        </div>
-                                        <div class="col-3 col-md-2 azioni">
-                                            <a href="#"><i class="fa-solid fa-pencil"></i></a>
-                                            <a href="#"><i class="fa-solid fa-trash"></i></a>
-                                        </div>
-                                    </div>
-                                </div>
-                            </div>
-
-                            <!-- classe 76 -->
-                            <div class="row">
-                                <div class="col nome-classe">
-                                    <div class="row hover-classe">
-                                        <div class="col classe">
-                                            <i class="fa-solid fa-code"></i>
-                                            <span>Classe 76</span>
-                                        </div>                                        
-                                        <div class="col-1 col-md-2 data-inizio">16 Feb 2021</div>
-                                        <div class="col-1 col-md-2 roi">20%</div>
-                                        <div class="col-3 col-md-2 stato">
-                                            <span class="badge rounded-pill text-bg-primary done">Done</span>
-                                        </div>
-                                        <div class="col-3 col-md-2 azioni">
-                                            <a href="#"><i class="fa-solid fa-pencil"></i></a>
-                                            <a href="#"><i class="fa-solid fa-trash"></i></a>
-                                        </div>
-                                    </div>
-                                </div>
-                            </div>
-
-                              <!-- classe 77 -->
-                              <div class="row">
-                                <div class="col nome-classe">
-                                    <div class="row hover-classe">
-                                        <div class="col classe">
-                                            <i class="fa-solid fa-code"></i>
-                                            <span>Classe 77</span>
-                                        </div>                                        
-                                        <div class="col-1 col-md-2 data-inizio">17 Feb 2021</div>
-                                        <div class="col-1 col-md-2 roi">20%</div>
-                                        <div class="col-3 col-md-2 stato">
-                                            <span class="badge rounded-pill text-bg-primary process">process</span>
-                                        </div>
-                                        <div class="col-3 col-md-2 azioni">
-                                            <a href="#"><i class="fa-solid fa-pencil"></i></a>
-                                            <a href="#"><i class="fa-solid fa-trash"></i></a>
-                                        </div>
-                                    </div>
-                                </div>
-                            </div>
-
-                               <!-- classe 78 -->
-                               <div class="row">
-                                <div class="col nome-classe">
-                                    <div class="row hover-classe">
-                                        <div class="col classe">
-                                            <i class="fa-solid fa-code"></i>
-                                            <span>Classe 78</span>
-                                        </div>                                        
-                                        <div class="col-1 col-md-2 data-inizio">18 Feb 2021</div>
-                                        <div class="col-1 col-md-2 roi">20%</div>
-                                        <div class="col-3 col-md-2 stato">
-                                            <span class="badge rounded-pill text-bg-primary done">Done</span>
-                                        </div>
-                                        <div class="col-3 col-md-2 azioni">
-                                            <a href="#"><i class="fa-solid fa-pencil"></i></a>
-                                            <a href="#"><i class="fa-solid fa-trash"></i></a>
-                                        </div>
-                                    </div>
-                                </div>
-                            </div>
-
-                               <!-- classe 79 -->
-                               <div class="row">
-                                <div class="col nome-classe">
-                                    <div class="row hover-classe">
-                                        <div class="col classe">
-                                            <i class="fa-solid fa-code"></i>
-                                            <span>Classe 79</span>
-                                        </div>                                        
-                                        <div class="col-1 col-md-2 data-inizio">19 Feb 2021</div>
-                                        <div class="col-1 col-md-2 roi">20%</div>
-                                        <div class="col-3 col-md-2 stato">
-                                            <span class="badge rounded-pill text-bg-primary failed">Failed</span>
-                                        </div>
-                                        <div class="col-3 col-md-2 azioni">
-                                            <a href="#"><i class="fa-solid fa-pencil"></i></a>
-                                            <a href="#"><i class="fa-solid fa-trash"></i></a>
-                                        </div>
-                                    </div>
-                                </div>
-                            </div>
-
-                               <!-- classe 80 -->
-                               <div class="row">
-                                <div class="col nome-classe">
-                                    <div class="row hover-classe">
-                                        <div class="col classe">
-                                            <i class="fa-solid fa-code"></i>
-                                            <span>Classe 80</span>
-                                        </div>                                        
-                                        <div class="col-1 col-md-2 data-inizio">20 Feb 2021</div>
-                                        <div class="col-1 col-md-2 roi">20%</div>
-                                        <div class="col-3 col-md-2 stato">
-                                            <span class="badge rounded-pill text-bg-primary done">Done</span>
-                                        </div>
-                                        <div class="col-3 col-md-2 azioni">
-                                            <a href="#"><i class="fa-solid fa-pencil"></i></a>
-                                            <a href="#"><i class="fa-solid fa-trash"></i></a>
-                                        </div>
-                                    </div>
-                                </div>
-                            </div>
-
-                               <!-- classe 81 -->
-                               <div class="row">
-                                <div class="col nome-classe">
-                                    <div class="row hover-classe">
-                                        <div class="col classe">
-                                            <i class="fa-solid fa-code"></i>
-                                            <span>Classe 81</span>
-                                        </div>                                        
-                                        <div class="col-1 col-md-2 data-inizio">21 Feb 2021</div>
-                                        <div class="col-1 col-md-2 roi">20%</div>
-                                        <div class="col-3 col-md-2 stato">
-                                            <span class="badge rounded-pill text-bg-primary failed">Failed</span>
-                                        </div>
-                                        <div class="col-3 col-md-2  azioni">
-                                            <a href="#"><i class="fa-solid fa-pencil"></i></a>
-                                            <a href="#"><i class="fa-solid fa-trash"></i></a>
-                                        </div>
-                                    </div>
-                                </div>
-                            </div>
-
-                               <!-- classe 82 -->
-                               <div class="row">
-                                <div class="col nome-classe">
-                                    <div class="row hover-classe">
-                                        <div class="col classe">
-                                            <i class="fa-solid fa-code"></i>
-                                            <span>Classe 82</span>
-                                        </div>                                        
-                                        <div class="col-1 col-md-2 data-inizio">22 Feb 2021</div>
-                                        <div class="col-1 col-md-2 roi">20%</div>
-                                        <div class="col-3 col-md-2 stato">
-                                            <span class="badge rounded-pill text-bg-primary done">Done</span>
-                                        </div>
-                                        <div class="col-3 col-md-2 azioni">
-                                            <a href="#"><i class="fa-solid fa-pencil"></i></a>
-                                            <a href="#"><i class="fa-solid fa-trash"></i></a>
-                                        </div>
-                                    </div>
-                                </div>
-                            </div>
-
-
                         </div>
 
-                        <!-- SEZIONE FAQ -->
-                        <div class="col-12 faq">
-                            <h1>FAQ</h1>
+                        <!-- row titolo colonna -->
+                        <div class="row">
+                                    <div class="col">
+                                        <div class="row">
+                                            <div class="col nome-classe">Nome</div>
+                                            <div class="col-1 col-md-2  data-inizio">Data Inizio</div>
+                                            <div class="col-1 col-md-2 roi">ROI</div>
+                                            <div class="col-3 col-md-2 stato">Stato</div>
+                                            <div class="col-3 col-md-2 azioni">Azioni</div>
+                                        </div>
+                                    </div>
                         </div>
 
-                        <!-- SEZIONE TO DO -->
-                        <div class="col-12 to-do">
-                            <h1>To-Do</h1>
+                        <!-- da qui row delle singole classi -->
+                        <!-- classe 75 -->
+                        <div class="row">
+                                        <div class="col nome-classe">
+                                            <div class="row hover-classe">
+                                                <div class="col classe">
+                                                    <i class="fa-solid fa-code"></i>
+                                                    <span>Classe 75</span>
+                                                </div>
+                                                <div class="col col-md-2 data-inizio">15 Feb 2021</div>
+                                                <div class="col-1 col-md-2 roi">20%</div>
+                                                <div class="col-3 col-md-2 stato">
+                                                    <span class="badge rounded-pill text-bg-primary done">Done</span>
+                                                </div>
+                                                <div class="col-3 col-md-2 azioni">
+                                                    <a href="#"><i class="fa-solid fa-pencil"></i></a>
+                                                    <a href="#"><i class="fa-solid fa-trash"></i></a>
+                                                </div>
+                                            </div>
+                                        </div>
                         </div>
 
-                        <!-- SEZIONE DASHBOARD -->
-                        <div class="col-12 dashboard">
-                            dashboard
+                        <!-- classe 76 -->
+                        <div class="row">
+                                        <div class="col nome-classe">
+                                            <div class="row hover-classe">
+                                                <div class="col classe">
+                                                    <i class="fa-solid fa-code"></i>
+                                                    <span>Classe 76</span>
+                                                </div>                                        
+                                                <div class="col-1 col-md-2 data-inizio">16 Feb 2021</div>
+                                                <div class="col-1 col-md-2 roi">20%</div>
+                                                <div class="col-3 col-md-2 stato">
+                                                    <span class="badge rounded-pill text-bg-primary done">Done</span>
+                                                </div>
+                                                <div class="col-3 col-md-2 azioni">
+                                                    <a href="#"><i class="fa-solid fa-pencil"></i></a>
+                                                    <a href="#"><i class="fa-solid fa-trash"></i></a>
+                                                </div>
+                                            </div>
+                                        </div>
                         </div>
+
+                        <!-- classe 77 -->
+                        <div class="row">
+                                        <div class="col nome-classe">
+                                            <div class="row hover-classe">
+                                                <div class="col classe">
+                                                    <i class="fa-solid fa-code"></i>
+                                                    <span>Classe 77</span>
+                                                </div>                                        
+                                                <div class="col-1 col-md-2 data-inizio">17 Feb 2021</div>
+                                                <div class="col-1 col-md-2 roi">20%</div>
+                                                <div class="col-3 col-md-2 stato">
+                                                    <span class="badge rounded-pill text-bg-primary process">process</span>
+                                                </div>
+                                                <div class="col-3 col-md-2 azioni">
+                                                    <a href="#"><i class="fa-solid fa-pencil"></i></a>
+                                                    <a href="#"><i class="fa-solid fa-trash"></i></a>
+                                                </div>
+                                            </div>
+                                        </div>
+                        </div>
+
+                        <!-- classe 78 -->
+                        <div class="row">
+                                        <div class="col nome-classe">
+                                            <div class="row hover-classe">
+                                                <div class="col classe">
+                                                    <i class="fa-solid fa-code"></i>
+                                                    <span>Classe 78</span>
+                                                </div>                                        
+                                                <div class="col-1 col-md-2 data-inizio">18 Feb 2021</div>
+                                                <div class="col-1 col-md-2 roi">20%</div>
+                                                <div class="col-3 col-md-2 stato">
+                                                    <span class="badge rounded-pill text-bg-primary done">Done</span>
+                                                </div>
+                                                <div class="col-3 col-md-2 azioni">
+                                                    <a href="#"><i class="fa-solid fa-pencil"></i></a>
+                                                    <a href="#"><i class="fa-solid fa-trash"></i></a>
+                                                </div>
+                                            </div>
+                                        </div>
+                        </div>
+
+                        <!-- classe 79 -->
+                        <div class="row">
+                                        <div class="col nome-classe">
+                                            <div class="row hover-classe">
+                                                <div class="col classe">
+                                                    <i class="fa-solid fa-code"></i>
+                                                    <span>Classe 79</span>
+                                                </div>                                        
+                                                <div class="col-1 col-md-2 data-inizio">19 Feb 2021</div>
+                                                <div class="col-1 col-md-2 roi">20%</div>
+                                                <div class="col-3 col-md-2 stato">
+                                                    <span class="badge rounded-pill text-bg-primary failed">Failed</span>
+                                                </div>
+                                                <div class="col-3 col-md-2 azioni">
+                                                    <a href="#"><i class="fa-solid fa-pencil"></i></a>
+                                                    <a href="#"><i class="fa-solid fa-trash"></i></a>
+                                                </div>
+                                            </div>
+                                        </div>
+                        </div>
+
+                        <!-- classe 80 -->
+                        <div class="row">
+                                        <div class="col nome-classe">
+                                            <div class="row hover-classe">
+                                                <div class="col classe">
+                                                    <i class="fa-solid fa-code"></i>
+                                                    <span>Classe 80</span>
+                                                </div>                                        
+                                                <div class="col-1 col-md-2 data-inizio">20 Feb 2021</div>
+                                                <div class="col-1 col-md-2 roi">20%</div>
+                                                <div class="col-3 col-md-2 stato">
+                                                    <span class="badge rounded-pill text-bg-primary done">Done</span>
+                                                </div>
+                                                <div class="col-3 col-md-2 azioni">
+                                                    <a href="#"><i class="fa-solid fa-pencil"></i></a>
+                                                    <a href="#"><i class="fa-solid fa-trash"></i></a>
+                                                </div>
+                                            </div>
+                                        </div>
+                        </div>
+
+                        <!-- classe 81 -->
+                        <div class="row">
+                                        <div class="col nome-classe">
+                                            <div class="row hover-classe">
+                                                <div class="col classe">
+                                                    <i class="fa-solid fa-code"></i>
+                                                    <span>Classe 81</span>
+                                                </div>                                        
+                                                <div class="col-1 col-md-2 data-inizio">21 Feb 2021</div>
+                                                <div class="col-1 col-md-2 roi">20%</div>
+                                                <div class="col-3 col-md-2 stato">
+                                                    <span class="badge rounded-pill text-bg-primary failed">Failed</span>
+                                                </div>
+                                                <div class="col-3 col-md-2  azioni">
+                                                    <a href="#"><i class="fa-solid fa-pencil"></i></a>
+                                                    <a href="#"><i class="fa-solid fa-trash"></i></a>
+                                                </div>
+                                            </div>
+                                        </div>
+                        </div>
+
+                        <!-- classe 82 -->
+                        <div class="row">
+                                        <div class="col nome-classe">
+                                            <div class="row hover-classe">
+                                                <div class="col classe">
+                                                    <i class="fa-solid fa-code"></i>
+                                                    <span>Classe 82</span>
+                                                </div>                                        
+                                                <div class="col-1 col-md-2 data-inizio">22 Feb 2021</div>
+                                                <div class="col-1 col-md-2 roi">20%</div>
+                                                <div class="col-3 col-md-2 stato">
+                                                    <span class="badge rounded-pill text-bg-primary done">Done</span>
+                                                </div>
+                                                <div class="col-3 col-md-2 azioni">
+                                                    <a href="#"><i class="fa-solid fa-pencil"></i></a>
+                                                    <a href="#"><i class="fa-solid fa-trash"></i></a>
+                                                </div>
+                                            </div>
+                                        </div>
+                        </div>
+                            
+                    </div>
+                </div>
+
+                <!-- SEZIONE FAQ -->
+                <div class="col faq">
+
+                    <h1>FAQ</h1>
+                    <div class="dropdown col">
+                            <button class="btn btn-secondary dropdown-toggle" type="button" data-bs-toggle="dropdown" aria-expanded="false">
+                            Dropdown button
+                            </button>
+                            <ul class="dropdown-menu">
+                            <li><a class="dropdown-item" href="#">Action</a></li>
+                            <li><a class="dropdown-item" href="#">Another action</a></li>
+                            <li><a class="dropdown-item" href="#">Something else here</a></li>
+                            </ul>
                     </div>
 
                 </div>
+                        
+
+                <!-- SEZIONE TO DO -->
+                    <div class="col-12 to-do">
+                            <h1>To-Do</h1>
+                    </div>
+
+                <!-- SEZIONE DASHBOARD -->
+                <div class="col-12 dashboard">
+                    dashboard
+                </div>
+                
+
+                
             </div>
         </main>
     </div>
