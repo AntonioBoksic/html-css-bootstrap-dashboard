@@ -35,6 +35,7 @@ a {
 /* HEADER */
 header {
     height: 50px;
+    padding: 5px 0px;
     background-color: #f7f7f7;
     position: fixed;
     width: 100%;
